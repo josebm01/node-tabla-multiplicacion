@@ -7,4 +7,4 @@ Comando de ejemplo:
 --hasta: cantidad de veces que se va a multiplicar
 -l: puede ir o no, si se ingresa se muestra en la consola la tabla de multiplicar, si no se agrega no se muestra
 
-node app --b=<numero> -l --hasta=<numero>
+node app --b=numero -l --hasta=numero
