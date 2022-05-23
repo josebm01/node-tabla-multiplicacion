@@ -1,0 +1,18 @@
+{
+  "name": "02-intrucciones-comando",
+  "version": "0.0.1",
+  "description": "Tabla de multiplicar que se graba en un archivo de texto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose BM",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
