@@ -5,6 +5,16 @@ Comando de ejemplo:
 
 --b: base para la multiplicación
 --hasta: cantidad de veces que se va a multiplicar
--l: puede ir o no, si se ingresa se muestra en la consola la tabla de multiplicar, si no se agrega no se muestra
+-l: peude ir o no 
 
 node app --b=numero -l --hasta=numero
+
+
+Options:
+      --help     Show help                                             [boolean]
+      --version  Show version number                                   [boolean]
+  -b, --base     Es la base de la tabla de multilplicar      [number] [required]
+  -h, --hasta    Límite para hacer la tabla de multiplicaciones
+                                                          [number] [default: 10]
+  -l, --listar   Muestra la tabla de multiplicar en consola
+                                                      [boolean] [default: false]
